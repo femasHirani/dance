@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+html,body{
+    background: #f5f2f0;
+    width: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    font-family: 'Poppins';
+}
+
+/* .index{
+
+} */
+
+.nav{
+    width: 90%;
+    height: 120px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 5%;
+    z-index: 10;
+}
+
+.logo{
+    width: 100px;
+    position: fixed;
+}
+
+.index_img{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 35%;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
+
+.navBar{
+    width: 63%;
+    height: 100%;
+    margin-left: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.decoration_line{
+    width: 42%;
+    margin-left: 3%;
+    height: 2px;
+    background: #737271;
+}
+
+.nav_items{
+    width: 50%;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #828282;
+}
+
+.nav_item{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.nav_item_active{
+    color: #333333;
+}
+
+.index_right{
+    margin-left: 35%;
+    padding-top: 100px;
+    width: 65%;
+    min-height: 80vh;
+}
+
+.index_right_top{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index_title{
+    font-size: 100px;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #333333;
+    line-height: 100px;
+    margin-left: -50px;
+}
+
+.index_title_fill{
+    margin-left: 120px;
+    color: #333333;
+    -webkit-text-stroke-width: 0px !important;
+    -webkit-text-stroke-color: unset !important;
+}
+
+.index_contact{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.index_contact_top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.index_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact_icon{
+    width: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.ig_icon{
+    width: 20px;
+}
+
+.fb_icon{
+    width: 10px;
+}
+
+.mail_icon{
+    width: 20px;
+}
+
+.index_title_sub{
+    color: #828282;
+    font-family: 'Merriweather';
+    font-weight: 500;
+}
+
+.index_contact_btn{
+    width: 100%;
+    height: 50px;
+    background: #333333;
+    margin-top: 30px;
+    color: #f5f2f0;
+    font-size: 18px;
+}
+
+.index_right_bottom{
+    margin: auto;
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.index_bottom_left{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.decoration_line2{
+    height: 100%;
+    width: 1px;
+    background: #828282;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+}
+
+.service_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+.circle_wrapper{
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle{
+    width: 10px;
+    height: 10px;
+    background: #828282;
+    border-radius: 50px;
+}
+
+.circle_current{
+    width: 15px;
+    height: 15px;
+    background: #333333;
+    z-index: 99;
+}
+
+.service{
+    color: #828282;
+    width: max-content;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.service_current{
+    color: #333333;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.index_bottom_right{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.index_bottom_info{
+    width: 75%;
+}
+
+.index_bottom_description{
+    margin-top: -40px;
+    font-weight: 500;
+}
+
+.index_info_img{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.index_bottom_colons{
+    font-size: 70px;
+    color: #333333;
+    margin-top: -20px;
+}
+
+.index_goDown_sign{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.index_goDown_line{
+    width: 2px;
+    height: 100px;
+    background: #333333;
+    position: absolute;
+    right: 25px;
+    top: 100px;
+}
+
+.arrow_down{
+    width: 40px;
+    position: absolute;
+    right: 6px;
+    top: 175px;
+}
